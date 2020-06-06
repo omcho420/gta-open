@@ -6,3 +6,4 @@
 #include <jailcell_system>
 #include <cityhall_system>
 #include <hospital_system>
+#include <hitmanhotel_system>

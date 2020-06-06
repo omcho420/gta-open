@@ -17,3 +17,9 @@ ACMD:[5]setadmin(playerid, params[])
     }
     return 1;
 }
+
+ACMD:[5]interiors(playerid, params[])
+{
+    ShowInteriorMenu(playerid);
+    return 1;
+}

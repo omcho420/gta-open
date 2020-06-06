@@ -6,7 +6,7 @@ static
 
 hook OnGameModeInit()
 {
-    Create3DTextLabel("Press "C_YELLOW"Y"C_WHITE" to view services", COLOR_WHITE, 1173.1469, -1323.4918, 15.3958, 40.0, 0, 0);
+    Create3DTextLabel("Press "C_YELLOW"Y"C_WHITE" to view services", COLOR_WHITE, 1173.1469, -1323.4918, 16.3958, 40.0, 0, 0);
     CreateActor(70, 1173.1469, -1323.4918, 15.3958, 270.2290);
     return 1;
 }
@@ -70,8 +70,8 @@ public TextMenuHospital(playerid, listitem)
 stock ShowHospitalMenu(playerid)
 {
     TextMenu_Create(playerid, "TextMenuHospital", "Hospital");
-    TextMenu_Add(playerid, "~w~Heal [~g~$1000~w~]~n~");
-    TextMenu_Add(playerid, "~w~Change Skin [~g~$50000~w~]~w~");
+    TextMenu_Add(playerid, "~w~Heal [~g~$1000~w~]");
+    TextMenu_Add(playerid, "~w~Change Skin [~g~$50000~w~]");
     TextMenu_Show(playerid);
     return 1;
 }
